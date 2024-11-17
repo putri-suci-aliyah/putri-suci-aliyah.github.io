@@ -111,3 +111,77 @@ form button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+/* Skills Section */
+.skills-section {
+  background: #f9f9f9;
+  padding: 60px 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #000000;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 1px;
+  background: #000000;
+  margin: 9px auto 0;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.skill-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.05);
+}
+
+.skill-icon {
+  font-size: 2.5rem;
+  color: #bdbdbd;
+  margin-bottom: 15px;
+}
+
+.skill-info h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.progress-bar {
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0;
+  height: 8px;
+}
+
+.progress {
+  height: 100%;
+  background: #000000;
+  transition: width 0.5s ease-in-out;
+}
+
+.skill-info p {
+  font-size: 0.875rem;
+  color: #555;
+  margin-top: 10px;
+}
