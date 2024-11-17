@@ -1,7 +1,11 @@
+p{
+  font-size: 18px;
+}
+
 .jumbotron{
     padding: 2rem 2rem;
-    
 }
+
 .home{
     display: flex;
     justify-content: center;
@@ -52,9 +56,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Global Section Titles
---------------------------------------------------------------*/
 .section-title {
   padding-bottom: 60px;
   position: relative;
@@ -91,8 +92,22 @@ section,
   font-family: var(--heading-font);
 }
 
+.social-links a{
+  color: black;
+}
 
-/* CERTIFICATION */
-#certification img{
-  height: 350px;
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+form button {
+  padding: 7px 7px;
+  background-color:#000000;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
