@@ -112,7 +112,51 @@ form button {
   transition: background-color 0.3s ease;
 }
 
+/* ABOUT */
+.about-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #000000;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.about-title::after {
+  content: '';
+  display: block;
+  width: 150px;
+  height: 1px;
+  background: #000000;
+  margin: 9px auto 0;
+}
+
 /* Skills Section */
+.skills-section .progress-bar {
+  position: relative;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.skills-section .progress {
+  height: 100%;
+  background-color: #000000;
+  border-radius: 9px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+}
+
+.skills-section .progress-value {
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .skills-section {
   background: #f9f9f9;
   padding: 60px 20px;
@@ -129,7 +173,7 @@ form button {
 .section-title::after {
   content: '';
   display: block;
-  width: 100px;
+  width: 140px;
   height: 1px;
   background: #000000;
   margin: 9px auto 0;
@@ -156,7 +200,7 @@ form button {
 
 .skill-icon {
   font-size: 2.5rem;
-  color: #bdbdbd;
+  color: #a0a0a0;
   margin-bottom: 15px;
 }
 
@@ -184,4 +228,27 @@ form button {
   font-size: 0.875rem;
   color: #555;
   margin-top: 10px;
+}
+
+/* CERTIFICATION */
+.certification-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #000000;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.certification-title::after {
+  content: '';
+  display: block;
+  width: 180px;
+  height: 1px;
+  background: #000000;
+  margin: 9px auto 0;
+}
+
+/* footer */
+.shadow-up {
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Shadow ke atas */
 }
